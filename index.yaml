@@ -1,0 +1,157 @@
+apiVersion: v1
+entries:
+  dashboard:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.905264238-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 357a0382ea7a0016121342da965a8a5e748a62ae339a59addac39c6159791696
+    name: dashboard
+    type: application
+    urls:
+    - charts/dashboard-0.1.0.tgz
+    version: 0.1.0
+  hmm-api:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.905629638-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 1d696aecc4a20e76e92653710fbe3c748c7be15046b7beaeed71d9ff8c58560c
+    name: hmm-api
+    type: application
+    urls:
+    - charts/hmm-api-0.1.0.tgz
+    version: 0.1.0
+  hmm-migrator:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.905991646-03:00"
+    description: A Helm chart for Kubernetes
+    digest: e667007a1afb156be5149660aacf4e20f9be1e21e8a07ebbc70d1734de983fe8
+    name: hmm-migrator
+    type: application
+    urls:
+    - charts/hmm-migrator-0.1.0.tgz
+    version: 0.1.0
+  hmm-scheduler:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.906381726-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 98fce136a278a26ae1722a006ca4736929b196268dde2f9d50aeb97a776b5d92
+    name: hmm-scheduler
+    type: application
+    urls:
+    - charts/hmm-scheduler-0.1.0.tgz
+    version: 0.1.0
+  hmm-web-backoffice:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.906753802-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 224adeb00c968ee5f310f6a3ab9519c45db3f76fd3f51388b220afe4d6702eb3
+    name: hmm-web-backoffice
+    type: application
+    urls:
+    - charts/hmm-web-backoffice-0.1.0.tgz
+    version: 0.1.0
+  papier-backend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.907193439-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 8e3bfff793c9760662051cf0db85dd8a3733f50fe0aa56e6a7bc09473a31152e
+    name: papier-backend
+    type: application
+    urls:
+    - charts/papier-backend-0.1.0.tgz
+    version: 0.1.0
+  papier-content:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.907563901-03:00"
+    description: A Helm chart for Kubernetes
+    digest: b5879d1053572e0648f203cc8e2ed9504c75fe8ca045d059b29b82093521b43a
+    name: papier-content
+    type: application
+    urls:
+    - charts/papier-content-0.1.0.tgz
+    version: 0.1.0
+  papier-files:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.907988776-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 60442e529dd052ff949aea7325b0b64b639a93ee142547f04642fad97a7008e6
+    name: papier-files
+    type: application
+    urls:
+    - charts/papier-files-0.1.0.tgz
+    version: 0.1.0
+  papier-web:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.908950038-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 002487b91a8138b805134b9f5bf8258df7acf5cba70f1f128c807e10fdc21c7a
+    name: papier-web
+    type: application
+    urls:
+    - charts/papier-web-0.1.0.tgz
+    version: 0.1.0
+  poc:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2021-11-04T14:33:47.909307847-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 14b207d93f377e814eacb7cc22b74c45623535ab36b8648a3773bdf905b9c689
+    name: poc
+    type: application
+    urls:
+    - charts/poc-0.1.0.tgz
+    version: 0.1.0
+  sch:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.909671099-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 0938d523f47196a921d3648d803afad9ff8be9e6b32886d8096eb4a700fbd60b
+    name: sch
+    type: application
+    urls:
+    - charts/sch-0.1.0.tgz
+    version: 0.1.0
+  web-backoffice-demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.910021088-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 8b0933b3d65fef7764564dd032746086757f1fa40a0236f0af4e833a8393f1ea
+    name: web-backoffice-demo
+    type: application
+    urls:
+    - charts/web-backoffice-demo-0.1.0.tgz
+    version: 0.1.0
+  web-backoffice-preprod:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.910351047-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 1e9fe374e6ff806dfaaa44626f8431dc636a9edd417ccc5bbced9fc1d947ac84
+    name: web-backoffice-preprod
+    type: application
+    urls:
+    - charts/web-backoffice-preprod-0.1.0.tgz
+    version: 0.1.0
+  web-backoffice-testing:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-04T14:33:47.91070184-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 18b6af397939876ca3e81ccea0f2103016257aa043062ca6876b17ddaed6c1cc
+    name: web-backoffice-testing
+    type: application
+    urls:
+    - charts/web-backoffice-testing-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-11-04T14:33:47.904755833-03:00"
