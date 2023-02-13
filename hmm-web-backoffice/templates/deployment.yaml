@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: 
+  name: hmm-web-backoffice-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hmm-web-backoffice
+  template:
+    metadata:
+      labels:
+        app: hmm-web-backoffice
+    spec:
+      imagePullSecrets:
+        - name: regcred
+      containers:
+        - name: hmm-web-backoffice
+          image: itlgdeveloper/hmm-web-backoffice:{{ .Values.tag }}
+          ports:
+            - containerPort: 3000
+          env:
+            - name: API_URL
+              value: https://dev.hmmglobal.com/hmm-api
+            - name: SCHEDULER_URL
+              value: https://dev.hmmglobal.com/hmm-scheduler
+            - name: APP_VERSION
+              value: 1.7.0
+            - name: RELEASE_DATE
+              value: DD de MMMM de 2020
+            - name: SECRET_KEY
+              value: 87hjgvLKM7glklnhb56fivulIo56LIlb
+            - name: CLIENT_ID
+              value: hmm-web
+            - name: CLIENT_SECRET
+              value: 5eCr37
+            - name: GOOGLE_KEY
+              value: AIzaSyCuXBzpg-aKgbaCwk5ry9_oGO7WzCbFQPA
+            - name: PORT
+              value: "3000"
+            - name: DEBUG
+              value: "false"
+            - name: KEYCLOAKMIDDLEWARE
+              value: https://dev.hmmglobal.com/keycloak-middleware
+            - name: SSO_URL
+              value: https://dev.keycloak.hmmglobal.com
+            - name: KEYCLOAK_ADMIN_CLIENT_ID
+              value: admin-cli
+            - name: KEYCLOAK_ADMIN_USERNAME
+              value: admin
+            - name: KEYCLOAK_ADMIN_PASSWORD
+              value: KeycloaK-123.abc
